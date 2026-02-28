@@ -3,7 +3,7 @@
 # IMPORTANT: metadata.json must be at the ROOT of the archive (ISO 21320-1 compatible)
 
 cd "$(dirname "$0")"
-OUTPUT="${1:-./build/kicadmaxcolors_v1.0.0.zip}"
+OUTPUT="${1:-./build/kicadmaxcolors_1.0.0.zip}"
 STAGING=$(mktemp -d)
 
 # Remove the old archive
