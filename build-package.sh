@@ -3,7 +3,7 @@
 # IMPORTANT: metadata.json must be at the ROOT of the archive
 
 cd "$(dirname "$0")"
-OUTPUT="${1:-./build/com.github.maximekahn.kicadmaxcolors_v1.0.0.zip}"
+OUTPUT="${1:-./build/maximekahn.kicadmaxcolors_v1.0.0.zip}"
 
 # Remove the old archive
 rm -f "$OUTPUT"
