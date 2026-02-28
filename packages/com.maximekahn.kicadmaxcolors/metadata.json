@@ -27,7 +27,7 @@
       "status": "stable",
       "kicad_version": "6.0",
       "download_url": "https://github.com/maximekahn/KiCadMaxColors/releases/download/1.0.0/kicadmaxcolors_1.0.0.zip",
-      "download_sha256": "6b2ec86dcc283feb7110c493171e3cd71786f9a081b69fc6d5e68a8931c48ad9",
+      "download_sha256": "1c688f977f3f2935fe55926631798dec72fef5b2bfd4df38081fe9e7c74724d7",
       "download_size": 1550,
       "install_size": 6643
     }
