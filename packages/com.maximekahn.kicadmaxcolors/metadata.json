@@ -3,7 +3,7 @@
   "name": "KiCadMaxColors",
   "description": "Dark theme for Schematic, PCB and Footprint Editor.",
   "description_full": "KiCadMaxColors theme for KiCad. Unified dark palette (background #1e1e1e) for schematic/symbol editor (eeschema), PCB editor (pcbnew) and footprint editor (fpedit) with consistent colors across all editors.",
-  "identifier": "maximekahn.kicadmaxcolors",
+  "identifier": "com.maximekahn.kicadmaxcolors",
   "type": "colortheme",
   "author": {
     "name": "Maxime Kahn",
@@ -27,9 +27,9 @@
       "status": "stable",
       "kicad_version": "6.0",
       "download_url": "https://github.com/maximekahn/KiCadMaxColors/releases/download/1.0.0/kicadmaxcolors_1.0.0.zip",
-      "download_sha256": "a70d0b638d295bd91f322388eeea42750ca6ab5828c5998fd23b1310a4bba1d1",
-      "download_size": 1549,
-      "install_size": 6639
+      "download_sha256": "6b2ec86dcc283feb7110c493171e3cd71786f9a081b69fc6d5e68a8931c48ad9",
+      "download_size": 1550,
+      "install_size": 6643
     }
   ]
 }
