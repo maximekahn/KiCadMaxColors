@@ -1,53 +1,53 @@
-# Thème KiCadMaxColors pour KiCad
+# KiCadMaxColors Theme for KiCad
 
-Thème de couleurs pour KiCad (Schematic, PCB Layout et Footprint Editor).
+Color theme for KiCad (Schematic, PCB Layout and Footprint Editor).
 
-## Caractéristiques
+## Features
 
-- **Fond gris foncé** (#1e1e1e)
-- **Fils bleus** — wire, bus, labels sur fils
-- **Pins rouges**
-- **Symboles verts**
-- **Texte blanc**
-- **Palette unifiée** — mêmes couleurs pour schematic (symboles), PCB et footprint editor
-- Compatible **eeschema**, **pcbnew** et **footprint editor**
+- **Dark gray background** (#1e1e1e)
+- **Blue wires** — wire, bus, labels on wires
+- **Red pins**
+- **Green symbols**
+- **White text**
+- **Unified palette** — same colors for schematic (symbols), PCB and footprint editor
+- Compatible with **eeschema**, **pcbnew** and **footprint editor**
 
 ## Installation
 
-### Méthode 1 : Copie manuelle (recommandée)
+### Method 1: Plugin and Content Manager (PCM) (recommended)
 
-1. Fermez KiCad si ouvert
-2. Copiez le fichier `colors/KiCadMaxColors.json` vers le dossier colors de KiCad :
+If this theme is published in a PCM repository:
 
-   **macOS :**
+1. KiCad → Preferences → Plugin and Content Manager
+2. Add the repository URL if needed
+3. Install the "KiCadMaxColors" theme
+
+### Method 2: Manual copy
+
+1. Close KiCad if it is open
+2. Copy the file `colors/KiCadMaxColors.json` to KiCad's colors folder:
+
+   **macOS:**
    ```bash
    mkdir -p ~/Library/Preferences/kicad/colors
    cp colors/KiCadMaxColors.json ~/Library/Preferences/kicad/colors/
    ```
 
-   **Linux :**
+   **Linux:**
    ```bash
    mkdir -p ~/.config/kicad/colors
    cp colors/KiCadMaxColors.json ~/.config/kicad/colors/
    ```
 
-   **Windows :**
+   **Windows:**
    ```powershell
    mkdir -p %APPDATA%\kicad\colors
    copy colors\KiCadMaxColors.json %APPDATA%\kicad\colors\
    ```
 
-3. Ouvrez KiCad → Préférences → Thème de couleurs → sélectionnez **KiCadMaxColors**
+3. Open KiCad → Preferences → Color theme → select **KiCadMaxColors**
 
-### Méthode 2 : Plugin and Content Manager (PCM)
-
-Si ce thème est publié dans un dépôt PCM :
-
-1. KiCad → Préférences → Gestionnaire de plugins et de contenu
-2. Ajoutez l'URL du dépôt si nécessaire
-3. Installez le thème « KiCadMaxColors »
-
-## Structure du package
+## Package structure
 
 ```
 KiCadMaxColors/
@@ -58,10 +58,10 @@ KiCadMaxColors/
 └── README.md
 ```
 
-## Références
+## References
 
 - [KiCad Addons Documentation](https://dev-docs.kicad.org/en/addons/)
 
-## Licence
+## License
 
-CC0-1.0 (Domaine public)
+CC0-1.0 (Public domain)
