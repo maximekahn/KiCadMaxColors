@@ -53,10 +53,24 @@ If this theme is published in a PCM repository:
 KiCadMaxColors/
 ├── colors/
 │   └── KiCadMaxColors.json   # Theme definition
-├── metadata.json      # PCM metadata
-├── build-package.sh   # Script to create the ZIP archive
+├── metadata.json             # Package metadata (single version, no download_*)
+├── build-package.sh          # Script to create the ZIP archive
+├── build/
+│   └── com.github.maximekahn.kicadmaxcolors_v1.0.0.zip
+├── packages/
+│   └── com.github.maximekahn.kicadmaxcolors/
+│       └── metadata.json     # Repository metadata (for KiCad addons submission)
 └── README.md
 ```
+
+## Submitting to the official KiCad repository
+
+1. **Upload the package** to [GitHub Releases](https://github.com/maximekahn/KiCadMaxColors/releases): upload `build/com.github.maximekahn.kicadmaxcolors_v1.0.0.zip` and create a release (e.g. v1.0.0). Use the direct download URL.
+2. **Update `packages/com.github.maximekahn.kicadmaxcolors/metadata.json`** if your download URL differs from the default GitHub releases format.
+3. **Clone the KiCad metadata repo**: `git clone https://gitlab.com/kicad/addons/metadata.git`
+4. **Copy files**: Place `packages/com.github.maximekahn.kicadmaxcolors/metadata.json` (and `icon.png` if you have one) into `metadata/packages/com.github.maximekahn.kicadmaxcolors/`
+5. **Validate**: Run `python tools/packager.py` from the metadata repo (after `pip install -r ci/requirements.txt`)
+6. **Submit**: Create a branch, push to your fork, and open a merge request. See [KiCad Addons Documentation](https://dev-docs.kicad.org/en/addons/) for the full workflow.
 
 ## References
 
